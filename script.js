@@ -8,10 +8,7 @@ async function initMap() {
     const { Map } = await google.maps.importLibrary("maps");
     const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 // Define the positions for Georgian College Barrie and Georgian@ILAC Toronto
-    const georgianCollegePosition = {
-        lat: 44.4123,
-        lng: -79.6689
-    };
+   
     
     const georgianILACTorontoPosition = {
         lat: 43.6445,
